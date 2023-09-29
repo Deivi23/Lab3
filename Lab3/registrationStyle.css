@@ -1,0 +1,34 @@
+body {
+    padding: 20px;
+    outline: 5px solid #252323;
+    border-radius: 10px;
+    background-color: rgb(143, 155, 223);
+}
+
+header {
+    text-align: center;
+    padding: 0px;
+}
+
+.header {
+    background-color: rgb(165, 191, 214);
+}
+
+.inline {
+    display: inline-block;
+}
+
+table {
+    width: 70%;
+}
+
+.block {
+    margin-top: 10px;
+}
+
+.submit{
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: bisque;
+}

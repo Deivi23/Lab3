@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Registration</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="registrationStyle.css">
+
+</head>
+
+<body>
+	<header>
+		<h2 class="header inline"><u>Race Registration Form</u></h2>
+	</header>
+	<div class="block">
+		<label for="email">E-mail:</label>
+		<input type="email" id="email" name="email">
+	</div>
+	
+	<div class="block">
+		<div class="title">
+			<label>Title:</label>
+			<input type="radio" value="1" name="t">
+			<label>Mr.</label>
+			<input type="radio" value="2" name="t">
+			<label>Ms.</label>
+			<input type="radio" value="3" name="t">
+			<label>Mrs.</label>
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="inline">
+			<label>First Name</label><br>
+			<input type="text">
+		</div>
+
+		<div class="inline">
+			<label>Last Name</label><br>
+			<input type="text">
+		</div>
+	</div>
+
+	<div class="block">
+		<label>Complete Postal Mailing Address (with Postal Code & Country)</label><br>
+		<textarea cols="70%" rows="3"></textarea>
+	</div>
+
+	<div class="block">
+		<div class="inline">
+			<label>Phone</label>
+			<input type="" >
+		</div>
+
+		<div class="inline">
+			<label>Fax</label>
+			<input type="text">
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="inline">
+			<label>Occupation</label>
+			<input type="text">
+		</div>
+
+		<div class="inline">
+			<label>Marital Status</label>
+			<select style="width: 200px;">
+				<option>Alone</option>
+				<option>Married</option>
+			</select>
+			<!-- <input type="text"> -->
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="inline">
+			<label>Emergency-<br>Contact</label>
+		</div>
+
+		<div class="inline">
+			<label>Name</label><br>
+			<input type="text">
+		</div>
+
+		<div class="inline">
+			<label>Email</label><br>
+			<input type="text">
+		</div>
+
+		<div class="inline">
+			<label>Phone No</label><br>
+			<input type="text">
+		</div>
+	</div>
+
+	<div class="block">
+		<label>Select Trip:</label><br>
+		<input style="margin-left:30px;" type="radio" id="checkbox" name="trip">
+		<label>Stage Race</label>
+		<input type="radio" id="checkbox" name="trip">
+		<label>Mt. Everest Challange Marathon (4 day trip)</label>
+		<input type="radio" id="checkbox" name="trip">
+		<label>Mt. Everest Bike Really</label>
+	</div>
+	<div class="block">
+		<table>
+			<tr>
+				<td><label>I am a:</label></td>
+				<td>
+					<input type="radio" id="checkbox" name="i" value="1">
+					<label>Runner</label>
+				</td>
+				<td>
+					<input type="radio" id="checkbox" name="i" value="2">
+					<label>Walker</label>
+				</td>
+				<td>
+					<input type="radio" id="checkbox" name="i" value="3">
+					<label>Cyclist</label>
+				</td>
+			</tr>
+		
+			<tr>
+				<td>
+					<label>T-Shirt Size:</label>
+				</td>
+				<td>
+					<input type="radio" id="checkbox" name="t" value="1">
+					<label>Small</label>
+				</td>
+				<td>
+					<input type="radio" id="checkbox" name="t" value="2">
+					<label>Medium</label>
+				</td>
+				<td>
+					<input type="radio" id="checkbox" name="t" value="3">
+					<label>Large</label>
+				</td>
+				<td>
+					<input type="radio" id="checkbox" name="t" value="4">
+					<label>X-Large</label>
+				</td>
+			</tr>
+		
+			<tr>
+				<td>
+					<label>Smoker:</label>
+				</td>
+				<td>
+					<input type="radio" id="checkbox" name="smoker" value="1">
+					<label>Yes</label>
+				</td>
+				<td>
+					<input type="radio" id="checkbox" name="smoker" value="2">
+					<label>No</label>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<div class="block">
+		<label for="text">Room Sharing Preference:</label>
+		<select style="width: 100px;">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+		  </select>
+	</div>
+
+	<div class="block">
+		<div class="underline">
+			<p><u>Passport Details</u></p>
+		</div>
+	</div>
+
+	<div class="block">
+		<p>Exact name as it appears</p>
+		<input type="text" style="width:70%;">
+	</div>
+
+	<div class="block">
+		<div class="inline">
+			<label>Number</label><br>
+			<input type="text">
+		</div>
+
+		<div class="inline">
+			<label>Date Issued</label><br>
+			<input type="date">
+		</div>
+
+		<div class="inline">
+			<label>Where Issued</label><br>
+			<input type="text">
+		</div>
+
+		<div class="inline">
+			<label>Date Expires</label><br>
+			<input type="date">
+		</div>
+	</div>
+
+	<div class="block">
+		<div class="inline">
+			<label>Date of birth</label><br>
+			<input type="date">
+		</div>
+
+		<div class="inline">
+			<label>Age</label><br>
+			<input type="text">
+		</div>
+
+		<div class="inline">
+			<label>Place of birth</label><br>
+			<input type="text">
+		</div>
+
+		<div class="inline">
+			<label>Citizen of</label><br>
+			<input type="text">
+		</div>
+	</div>
+
+	<div class="block">
+		<a href="https://ru.trip.com/">See Booking Conditions for all the trips</a>
+	</div>
+
+	<div class="block">
+		<label>I agree to all terms & conditions </label>
+		<input type="checkbox">
+	</div>
+
+	<div class="block" style="margin-left: 1%;">
+			<input class="submit" type="submit" value="Confirm">
+	</div>
+	<script src="javaScript.js"></script>
+</body>
+
+</html>
