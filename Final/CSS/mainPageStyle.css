@@ -1,0 +1,56 @@
+/* HEADER */
+.carousel {
+    top: 0;
+    width: 100%;
+}
+
+.sliderImg{
+    height: 100vh;
+}
+/* /HEADER */
+
+
+
+/* MAIN */
+
+.main {
+    margin: 3% 0 3% 0;
+}
+
+.line {
+    height: 250px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    margin: 30px;
+}
+
+.line-right {
+    position: relative;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.line-left {
+    position: relative;
+    left: 150px;
+}
+
+.infoImg {
+    height: 1%;
+    width: 100%;
+}
+
+.infoText{
+    color: bisque;
+}
+
+.upwBtn{
+    height: 200%;
+    width: 200%;
+    background-color: chartreuse;
+    position: relative;
+    
+    border-radius: 15px;
+}
+/* /MAIN */
